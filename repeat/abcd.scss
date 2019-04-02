@@ -1,0 +1,29 @@
+@import "compass";
+
+$color:#f00;
+
+@mixin transitions($a:all,$b:1s,$c:linear){
+transition:$a $b $c;
+-moz-transition:$a $b $c;
+-webkit-transition:$a $b $c;
+-o-transition:$a $b $c;
+-ms-transition:$a $b $c;
+}
+
+body{
+}
+
+div{
+@include transitions();
+h1{
+color:$color;
+@include transitions();
+}
+
+p{
+color:$color;
+@include transitions(all,0.2s,ease-in);
+}
+
+}
+

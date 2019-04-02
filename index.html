@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML5 </title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width;minimum-scale=1.0,maximum-scale=1.0"/>
+<link rel="stylesheet" href="css/sass-style.css"/>
+<script>
+var k1 = false;
+function animate(k){
+	if(k1 == false){
+	k.style.webkitTransform = "rotateY(360deg)";
+	k.style.MozTransform = "rotateY(360deg)";
+	k1 = true;
+	}else{
+			k.style.webkitTransform = "rotateY(0deg)";
+	k.style.MozTransform = "rotateY(0deg)";
+	k1 = false;
+	}
+	
+}
+</script>
+</head>
+
+<body>
+
+
+
+<section pid="main">
+
+<!-- comment
+<hgroup>
+<h1>HTML5</h1>
+<h3>Future of RIA</h3>
+</hgroup>
+
+-->
+
+<section id="top">
+<ul>
+<li>Sign Up</li>
+
+<li>Login</li>
+</ul>
+</section>
+
+
+<header>
+<figure onClick="animate(this)">
+<img src="assets/logo.png" alt="Logo"/>
+</figure>
+
+<nav>
+<ul>
+<li>About</li>
+<li>Contact</li>
+<li>Service</li>
+<li>Management</li>
+<li>Products</li>
+</ul>
+</nav>
+</header>
+
+
+<section id="banner">
+
+<input id="i1" name="a" type="radio" checked="checked"/>
+<div id="a1"></div>
+<input id="i2" name="a" type="radio"/>
+<div id="a2"></div>
+
+<input id="i3" name="a" type="radio"/>
+<div id="a3"></div>
+
+<div id="wrapper">
+<div id="slide1">
+<h1>All New Video Feature1</h1>
+<img src="assets/banner1.jpg"/>
+</div>
+
+<div id="slide2">
+<h1>All New Video Feature2</h1>
+<img src="assets/banner2.jpg"/>
+</div>
+
+<div id="slide3">
+<h1>All New Video Feature3</h1>
+<img src="assets/banner1.jpg"/>
+</div>
+</div>
+
+</section>
+
+
+
+
+
+</section>
+
+<aside>
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+</ul>
+</aside>
+
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* line 16, ../repeat/abcd.scss */
+div {
+  transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+}
+/* line 18, ../repeat/abcd.scss */
+div h1 {
+  color: red;
+  transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+}
+/* line 23, ../repeat/abcd.scss */
+div p {
+  color: red;
+  transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+}
